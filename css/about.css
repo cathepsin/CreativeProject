@@ -17,17 +17,11 @@ p{
 
 
 .container{
-  /*display: flex;*/
   text-align: center;
   vertical-align: center;
   margin-top: 1em;
 }
 
-/*
-.item{
-  width: 50%;
-  margin: 1em;
-}*/
 
 .footer {
   position: absolute;
