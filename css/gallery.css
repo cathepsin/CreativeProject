@@ -25,9 +25,11 @@ body {
   }
 
   .footer {
-    position: relative;
+    position: absolute;
+    right: 25%;
     margin-bottom: 2%;
     margin-left: 50%;
+    text-align-last: center;
   }
 
 /*Desktop*/
