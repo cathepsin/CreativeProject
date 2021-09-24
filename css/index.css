@@ -1,3 +1,26 @@
 body {
   background: linear-gradient(to left top, #fffcf2, #ebf3ff) fixed;
 }
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  margin-left: 25%;
+}
+
+@media only screen and (min-width: 769px){
+  .footer {
+    position: absolute;
+    text-align: center;
+    margin-left: 41%;
+  }
+
+
+}
