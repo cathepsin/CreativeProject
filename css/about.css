@@ -8,27 +8,61 @@ body {
 
 h1{
   text-align: center;
+  font-family: Garamond;
+}
+
+p{
+  font-family: Garamond;
 }
 
 
 .container{
-  display: flex;
+  /*display: flex;*/
   text-align: center;
   vertical-align: center;
+  margin-top: 1em;
 }
 
-
+/*
 .item{
   width: 50%;
   margin: 1em;
-}
+}*/
 
 .footer {
   position: absolute;
   text-align: center;
-  margin-left: 32%;
+  margin-left: 25%;
 }
 
-.first{
-  padding-top: 1em;
+#pic{
+  order: 1;
+}
+
+#text{
+  order:2;
+}
+
+@media only screen and (min-width: 769px){
+  .footer {
+    position: absolute;
+    text-align: center;
+    margin-left: 41%;
+  }
+
+  .container{
+    display: flex;
+    text-align: center;
+    vertical-align: center;
+  }
+
+  .item{
+    width: 50%;
+    margin: 1em;
+  }
+
+  .first{
+    padding-top: 4em;
+  }
+
 }
