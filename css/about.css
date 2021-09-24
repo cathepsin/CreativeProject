@@ -1,8 +1,26 @@
 .handwriting{
+  text-align: center;
+}
 
+h1{
+  text-align: center;
 }
 
 
 .container{
-  flex: flex;
+  display: flex;
+  text-align: center;
+  vertical-align: center;
+}
+
+
+.item{
+  width: 50%;
+  margin: 1em;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  margin-left: 32%;
 }
