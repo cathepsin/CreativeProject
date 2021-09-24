@@ -26,15 +26,11 @@ p{
 .footer {
   position: absolute;
   text-align: center;
-  margin-left: 25%;
+  margin-left: 17%;
 }
 
-#pic{
-  order: 1;
-}
-
-#text{
-  order:2;
+.flip{
+  flex-direction: row-reverse;
 }
 
 @media only screen and (min-width: 769px){
@@ -51,12 +47,16 @@ p{
   }
 
   .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     margin: 1em;
   }
 
-  .first{
-    padding-top: 6em;
+  .flip{
+    flex-direction: row;
   }
+
 
 }
