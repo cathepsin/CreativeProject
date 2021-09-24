@@ -26,16 +26,14 @@ body {
 
   .footer {
     position: absolute;
-    right: 25%;
-    margin-bottom: 2%;
-    margin-left: 50%;
-    text-align-last: center;
+    text-align: center;
+    margin-left: 32%;
   }
 
 /*Desktop*/
 @media only screen and (min-width: 769px){
   .portfolio { /* Masonry container */
-    column-count: 2;
+    column-count: 3;
     column-gap: 2em;
   }
 
@@ -51,8 +49,8 @@ body {
   }
 
   .footer {
-    position: relative;
-    margin-bottom: 2%;
-    margin-left: 50%;
+    position: absolute;
+    text-align: center;
+    margin-left: 45%;
   }
 }
