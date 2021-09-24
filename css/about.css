@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body {
+  background: linear-gradient(to left top, #ebf3ff, #fffcf2) fixed;
+}
+
 h1{
   text-align: center;
 }
