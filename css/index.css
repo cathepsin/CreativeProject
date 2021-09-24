@@ -2,17 +2,44 @@ body {
   background: linear-gradient(to left top, #fffcf2, #ebf3ff) fixed;
 }
 
+*{
+  font-family: Garamond;
+}
+
 .logo{
+  position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+
+  padding-top: 100px;
+  padding-bottom: 250px;
+}
+
+.wood{
+  position: absolute;
+  width:100%;
 }
 
 .footer {
   position: absolute;
   text-align: center;
   margin-left: 25%;
+}
+
+.button-cont{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+
+.button{
+  position: relative;
+  background: white;
+  width: 200px;
+  height: 75px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 769px){
