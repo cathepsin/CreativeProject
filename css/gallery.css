@@ -1,1 +1,52 @@
+h1 {
+  font-family: Garamond;
+  text-align: center;
+}
 
+
+  .portfolio { /* Masonry container */
+    
+    column-gap: 1em;
+  }
+
+  img {
+    resize: both;
+    max-width: 100%;
+  }
+
+  .image { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 1em;
+  }
+
+  .footer {
+    position: relative;
+    margin-bottom: 2%;
+    margin-left: 50%;
+  }
+
+/*Desktop*/
+@media only screen and (min-width: 769px){
+  .portfolio { /* Masonry container */
+    column-count: 2;
+    column-gap: 1em;
+  }
+
+  img {
+    resize: both;
+    max-width: 100%;
+  }
+
+  .image { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 1em;
+  }
+
+  .footer {
+    position: relative;
+    margin-bottom: 2%;
+    margin-left: 50%;
+  }
+}
