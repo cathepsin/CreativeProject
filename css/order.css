@@ -2,9 +2,25 @@ body {
   background: linear-gradient(to left top, #fffcf2, #ebf3ff) fixed;
 }
 
-p {
-  font-size: 30px;
+.phrase {
+  font-size: 24px;
   font-family: Garamond;
+}
+
+.info{
+  margin: auto;
+  margin-bottom: 3%;
+  width: 60%;
+  border: 3px solid #000000;
+  padding: 10px;
+}
+
+input[type=text] {
+  width: 100%;
+}
+
+.sBut{
+  width: 100%;
 }
 
 .banner {
@@ -12,6 +28,39 @@ p {
   width: 100%;
   height: 100%;
   overflow: hidden;
+}
+
+.portfolio { /* Masonry container */
+  column-count: 3;
+  column-gap: 1em;
+}
+.banim {
+  resize: both;
+  width: 100%;
+  height: 100%;
+  margin: -10% 0 -25% 0;
+}
+
+.tag {
+  position: absolute;
+  text-align: center;
+  font-family: Garamond;
+  font-weight: bolder;
+  font-size: 130%;
+  margin-left: 18%;
+  margin-top: 2%;
+}
+
+.image { /* Masonry bricks or child elements */
+  background-color: #eee;
+  display: inline-block;
+  margin: 0em .3em 1em;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  margin-left: 10%;
 }
 
 /*Desktop*/
