@@ -2,6 +2,11 @@ body {
   background: linear-gradient(to left top, #fffcf2, #ebf3ff) fixed;
 }
 
+p {
+  font-size: 30px;
+  font-family: Garamond;
+}
+
 .banner {
   display: flex;
   width: 100%;
@@ -30,8 +35,6 @@ body {
     font-size: 86px;
     margin-left: 18%;
     margin-top: 2%;
-
-
   }
 
   .image { /* Masonry bricks or child elements */
