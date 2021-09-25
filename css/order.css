@@ -92,6 +92,11 @@ input[type=text] {
     margin: 0em .3em 1em;
   }
 
+  .sBut{
+    margin-left: 45%;
+    width: 10%;
+  }
+
   .footer {
     position: absolute;
     text-align: center;
